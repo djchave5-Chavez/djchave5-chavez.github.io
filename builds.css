@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:700|Inter:400');
+html {
+    font-size: 100%;
+    background-color: black;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Inter';
+  font-weight: 700;
+}
+body {
+    font-family: 'Inter';
+    font-weight: 400;
+    color: #51C97F;
+    text-align: center;
+}
+body h4 {
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+body h2 {
+    color: #71A2ED;
+}
+main {
+    text-align: center;
+}
+header {
+    text-align: center;
+}
+header a {
+    text-decoration: none;
+    color: #51C97F;
+}
+nav {
+    font-weight: bold;
+    font-size: 1.777rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #71A2ED;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+}
+nav li {
+    border-bottom: 2px solid #71A2ED;
+}
+footer {
+    color: #8E75FF;
+    text-align: center;
+    padding: 2em;
+}
+footer a {
+    color: #71A2ED;
+}
+h1 {
+    font-size: 4.210rem;
+}
+h2 {
+    font-size: 3.158rem;
+}
+h3 {
+    font-size: 2.369rem;
+}
+h4 {
+    font-size: 1.777rem;
+}
+h5 {
+    font-size: 1.333rem;
+}
+small {
+    font-size: 0.750rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 400px;
+    margin: auto;
+}
+input, textarea {
+    padding-bottom: 0.5em;
+}
+label {
+    font-size: 1.0rem;
+}
+.divider {
+    border-bottom: none;
+    color: #D2FFFA;
+    display: none;
+}
+#homeHero {
+    height: 800px;
+    background-image: url(home-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#ramImage {
+    max-width: 600px;
+    max-height: 400px;
+}
+
+@media (min-width: 1024px) {
+    nav ul{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+    .divider {
+        display: block;
+    }
+    body h4 {
+        margin: 0px;
+    }
+    #news {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+}
+/*
+Exported colors from color picker:
+--text: #51C97f;
+--background: #000000;
+--primary: #71a2ed;
+--secondary: #8e75ff;
+--accent: #d2fffa;
+*/
