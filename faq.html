@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dominic's PC Builds: FAQ</title>
+    <link rel="stylesheet" href="builds.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Dominic's PC Builds</a></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="divider">|</li>
+            <li><a href="builds.html">Builds</a></li>
+            <li class="divider">|</li>
+            <li><a href="faq.html">F.A.Q.</a></li>
+            <li class="divider">|</li>
+            <li><a href="resources.html">Additional Resources</a></li>
+        </ul>
+    </nav>
+    <div id="questionHero"></div>
+    <main>
+        <div id="FAQ">
+        <h1>Frequently Asked Questions</h1>
+            <h3 class="questions">Should I use an Intel or AMD CPU?</h3>
+                <p class="answers">As of 2026, AMD is generally a better price to performance option all around. If you're building new in 2026 on a budget, AM4 is still a valid option and has some room to upgrade. If you have the money, AM5 is currently the best socket to invest in and still has many years ahead for future-proofing.</p>
+                <img src="AMD_CPU.jpg" alt="An AMD Ryzen 7 CPU" id="CPUImage">
+            <h3 class="questions">Should I use an AIO or air cooler?</h3>
+                <p class="answers">A decent air cooler is more than enough for pretty much any consumer CPU. Water cooling is only really necessary for crazy high end overclocking setups. If you're asking this question and reading this FAQ, you don't need an AIO. AIOs do work and look good aesthetically, they're just not the best value option for price to performance. It's sacrificing extra money that could be used to buff up other parts of your build.</p>
+            <h3 class="questions">Do I need to buy thermal paste?</h3>
+                <p class="answers">Probably not, most coolers including both stock (the one that's included in the box with your CPU) and aftermarket will come with a layer pre-applied, so you can just get straight to mounting and not worry about it. That said, it's pretty cheap to add a tube to your cart when ordering parts and doesn't hurt to have on hand. You should also remove and replace old thermal paste every couple of years as part of regular maintenance.</p>
+            <h3 class="questions">How do I apply thermal paste?</h3>
+                <p class="answers">The video below is created by arctic, a thermal paste manufacturer and show the simple process.</p>
+                <video controls poster="Thermalposter.jpg" width="600" height="400">
+                    <source src="ThermalPaste.mp4" type="video/mp4">
+                </video>
+            <h3 class="questions">What tools will I need to build?</h3>
+                <p class="answers">Generally, you'll only need a screwdriver and a bit set depending on the case you've purchased. It also helps to have some small zip or cable ties to help with cable management, and a pair of scissors or flush cutters to trim the ends. You should also have a small cup or container to hold any loose screws. Lastly, make sure to build on a flat table with space and never on carpet or any other material with static potential.</p>
+        </div>
+    </main>
+    <footer>
+        <div id="contact">
+            <h5>Contact</h5>
+            <a>djchave5@asu.edu</a>
+            <br>
+            <a href="tel:888-555-5555">Call: 888-555-5555</a>
+        </div>
+        <div id="feedback">
+            <h5>Submit your feedback</h5>
+            <form method="post" action=#>
+                <label for="myName">*Name:</label>
+                <input type="text" id="myName" name="myName" required>
+                <label for="myEmail">Email:</label>
+                <input type="text" id="myEmail" name="myEmail">
+                <label for="mySubject">Subject:</label>
+                <input type="text" id="mySubject" name="mySubject">
+                <label for="myFeedback">*Feedback:</label>
+                <textarea id="myFeedback" name="myFeedback" rows="2" cols="30" required></textarea>
+                <input type="submit">
+            </form>
+            <p>* = required field</p>
+        </div>
+    </footer>
+</body>
+</html>

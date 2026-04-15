@@ -74,6 +74,9 @@ h5 {
 small {
     font-size: 0.750rem;
 }
+p {
+    font-size: 1.333rem;
+}
 form {
     display: flex;
     flex-direction: column;
@@ -87,10 +90,37 @@ input, textarea {
 label {
     font-size: 1.0rem;
 }
+table {
+    margin: auto;
+    font-size: 2.369rem;
+    border: 1px solid gray;
+}
+th {
+    color: #51C97F;
+    border: 1px solid gray;
+}
+tr:nth-child(even) {
+    color: #71A2ED;
+    border: 1px solid gray;
+}
+tr:nth-child(odd) {
+    color: #8E75FF;
+    border: 1px solid gray;
+}
 .divider {
     border-bottom: none;
     color: #D2FFFA;
     display: none;
+}
+.build_title {
+    color: #71A2ED;
+}
+.questions {
+    color: #71A2ED;
+}
+.resourceLinks {
+    font-size: 2.369rem;
+    color: #8E75FF;
 }
 #homeHero {
     height: 800px;
@@ -99,9 +129,35 @@ label {
     background-repeat: no-repeat;
     background-position: center;
 }
+#buildHero {
+    height: 800px;
+    background-image: url(build_overview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 #ramImage {
     max-width: 600px;
     max-height: 400px;
+}
+#questionHero {
+    height: 800px;
+    background-image: url(building_hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+#FAQ {
+    max-width: 80%;
+    margin: auto;
+}
+#CPUImage {
+    max-width: 600px;
+    max-height: 400px;
+}
+#resources {
+    margin: auto;
+    max-width: 80%;
 }
 
 @media (min-width: 1024px) {
